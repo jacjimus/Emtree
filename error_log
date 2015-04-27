@@ -1,0 +1,7 @@
+[20-Mar-2015 08:00:50 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/emtreeco/public_html/application/controllers/home.php on line 93
+[20-Mar-2015 08:15:56 Africa/Johannesburg] PHP Fatal error:  Call to a member function order_by() on a non-object in /home/emtreeco/public_html/application/models/assessments.php on line 32
+[20-Mar-2015 08:20:46 Africa/Johannesburg] PHP Fatal error:  Can't use method return value in write context in /home/emtreeco/public_html/application/controllers/home.php on line 177
+[20-Mar-2015 08:23:47 Africa/Johannesburg] PHP Fatal error:  Call to a member function order_by() on a non-object in /home/emtreeco/public_html/application/models/assessments.php on line 32
+[20-Mar-2015 09:45:58 Africa/Johannesburg] PHP Fatal error:  Can't use method return value in write context in /home/emtreeco/public_html/application/views/register.php on line 5
+[20-Mar-2015 15:43:41 Africa/Johannesburg] PHP Fatal error:  Call to a member function order_by() on a non-object in /home/emtreeco/public_html/application/models/assessments.php on line 32
+[22-Mar-2015 11:33:26 Africa/Johannesburg] PHP Fatal error:  Call to a member function getAssessmentReports() on a non-object in /home/emtreeco/public_html/application/views/dashboard.php on line 3

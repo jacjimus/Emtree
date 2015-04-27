@@ -1,0 +1,294 @@
+body{ 
+    
+    font-size: 14px;
+   
+    }
+@font-face {
+    font-family: 'scribbleregular';
+    src: url('fonts/scribbleregular.eot');
+    src: url('fonts/scribbleregular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/scribbleregular.woff') format('woff'),
+         url('fonts/scribbleregular.ttf') format('truetype'),
+         url('fonts/scribbleregular.svg#scribbleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'noteworthyregular';
+    src: url('fonts/noteworthy-webfont.eot');
+    src: url('fonts/noteworthy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/noteworthy-webfont.woff') format('woff'),
+         url('fonts/noteworthy-webfont.ttf') format('truetype'),
+         url('fonts/noteworthy-webfont.svg#noteworthyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'barbiemediumitalic';
+    src: url('fonts/barbie-webfont.eot');
+    src: url('fonts/barbie-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/barbie-webfont.woff') format('woff'),
+         url('fonts/barbie-webfont.ttf') format('truetype'),
+         url('fonts/barbie-webfont.svg#QikkiRegRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'QikkiRegRegular';
+    src: url('fonts/Qarmic_sans_Abridged-webfont.eot');
+    src: url('fonts/Qarmic_sans_Abridged-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Qarmic_sans_Abridged-webfont.woff') format('woff'),
+         url('fonts/Qarmic_sans_Abridged-webfont.ttf') format('truetype'),
+         url('fonts/Qarmic_sans_Abridged-webfont.svg#QikkiRegRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: ProximaNova-Light;
+    src: url("fonts/ProximaNova-Light.otf");
+}
+@font-face
+{
+    font-family: Oswald-Bold;
+    src: url("fonts/Oswald-Bold.ttf");
+}
+
+
+@font-face
+{
+    font-family: Oswald-Light;
+    src: url("fonts/Oswald-Light.ttf");
+}
+
+
+@font-face
+{
+    font-family: Oswald-Regular;
+    src: url("fonts/Oswald-Regular.ttf");
+}
+#mainContainer{ width: 1000px; margin: 0 auto; font-family: Oswald-Regular}
+.number{font-family: LOGO !important;}
+#top_section{ height: 150px; font-family: Oswald-Regular !important}
+#mid_section{ height: 150px; font-family: Oswald-Regular !important}
+#bottom_section{ height: 150px; font-family: Oswald-Regular !important}
+#footer{ font-size: 12px;font-family: Oswald-Regular !important}
+#footer a{ text-decoration: none; font-family: Oswald-Regular !important}
+.clear{ 
+    clear: both; }
+#top_section a{ 
+    display: block;
+}
+li{ 
+    width: 200px;
+    display: inline;
+    padding: 22px;
+}
+#left_nav{ width: 250px ;margin-right: 10px;margin-top: -20px; border: 4px #b1e958;float: right ; font-family: QikkiRegRegular;}
+#content{ width: 100% !important; height: auto; min-height: 400px; float: left; margin-left: 20px; font-family: QikkiRegRegular !important;opacity: 0.79; z-index: -1;}
+.dashboard-stat {
+        position: relative;
+        display: block;
+        font-family: proxiManova-Light;
+        padding:20px 10px;
+        background-color: #eee;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        overflow: hidden;
+}
+.dashboard-stat,
+.dashboard-stat:hover,
+.dashboard-stat:active,
+.dashboard-stat:focus {
+        color: #666;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+        outline: none;
+}
+.dashboard-stat i,
+.dashboard-stat:hover i,
+.dashboard-stat:active i,
+.dashboard-stat:focus i {
+        color: #e4e4e4;
+}
+.dashboard-stat:hover {
+        background-color: #e6e6e6;
+}
+.dashboard-stat:hover i {
+        color: #dcdcdc;
+}
+.dashboard-stat:active {
+        outline: 0;
+        -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.dashboard-stat.primary,
+.dashboard-stat.primary:hover,
+.dashboard-stat.primary:active {
+        color: #FFF;
+        background-color: #e5412d;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.dashboard-stat.primary i,
+.dashboard-stat.primary:hover i,
+.dashboard-stat.primary:active i {
+        color: #dd301b;
+}
+.dashboard-stat.primary:hover {
+        background-color: #e3351f;
+}
+.dashboard-stat.primary:hover i {
+        color: #d42e1a;
+}
+.dashboard-stat.secondary,
+.dashboard-stat.secondary:hover,
+.dashboard-stat.secondary:active {
+        color: #FFF;
+        background-color: #f0ad4e;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.dashboard-stat.secondary i,
+.dashboard-stat.secondary:hover i,
+.dashboard-stat.secondary:active i {
+        color: #eea236;
+}
+.dashboard-stat.secondary:hover {
+        background-color: #eea236;
+}
+.dashboard-stat.secondary:hover i {
+        color: #ec9924;
+}
+.dashboard-stat.tertiary,
+.dashboard-stat.tertiary:hover,
+.dashboard-stat.tertiary:active {
+        color: #FFF;
+        background-color: #888888;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.dashboard-stat.tertiary i,
+.dashboard-stat.tertiary:hover i,
+.dashboard-stat.tertiary:active i {
+        color: #7b7b7b;
+}
+.dashboard-stat.tertiary:hover {
+        background-color: #7b7b7b;
+}
+.dashboard-stat.tertiary:hover i {
+        color: #717171;
+}
+.dashboard-stat .visual {
+        z-index: 10;
+        float: right;
+        width: 54px;
+        height: 100%;
+}
+.dashboard-stat .details {
+        position: relative;
+        z-index: 11;
+        float: left;
+        margin-top: -10px;
+        text-align: left;
+}
+.dashboard-stat .value {
+        display: block;
+        /*font-size: 32px;*/
+        font-size: 18px;
+        font-weight: 600;
+}
+.dashboard-stat .content {
+        display: block;
+        /*margin-bottom: 1em;*/
+        /*font-size: 13px;*/
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+}
+.dashboard-stat .visual i {
+        position: absolute;
+        left: 0;
+        left: auto;
+        right: 0;
+        bottom: 0;
+        display: block;
+        height: 72px;
+        font-size: 72px;
+        -webkit-transform: rotate(-30deg);
+        -moz-transform: rotate(-30deg);
+        -o-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+        transform: rotate(-30deg);
+        text-shadow: none;
+}
+.dashboard-stat .more {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.25) !important;
+        text-shadow: none;
+}
+.timeline_divs{
+    width: 600px; height: auto;
+    padding: 10px; border-bottom: 1px gainsboro dotted;}
+.logo {font-size: 36px; padding: 40px; margin-left: 50px;font-family: LOGO}
+@font-face {
+	font-family: LOGO;
+	src: url("fonts/fontomas-webfont.svg");
+    src: local('â˜º'), url('../fonts/fontomas-webfont.woff') format('woff'), url('../fonts/fontomas-webfont.ttf') format('truetype'), url('../fonts/fontomas-webfont.svg') format('svg');
+    font-weight: normal; font-style: normal;
+
+}
+
+
+div.bottombar{ /* bar that runs across the bottom of the menu */
+height: 10px;
+background: #1a1109;
+}
+div.menu {width: 90%;float: right;}
+div.menu {width: 90%;float: right;}
+ul.semiopaquemenu{ /* main menu UL */
+font: bold 14px Oswald-Regular ;
+width: 90%;
+border-radius: 5px;
+background: #b1e958;
+padding: 8px 0 5px 0; /* padding of the 4 sides of the menu */
+margin: 0px 0px 0px 100px;
+text-align: left; /* set value to "left", "center", or "right" to align menu accordingly */
+}
+
+ul.semiopaquemenu li{
+display: inline;
+}
+
+ul.semiopaquemenu li a{
+color:black;
+padding: 6px 8px 6px 8px; /* padding of the 4 sides of each menu link */
+margin-right: 15px; /* spacing between each menu link */
+text-decoration: none;
+}
+
+ul.semiopaquemenu li a:hover, .actived{
+color: black;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjgyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4xNiIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); /* IE9+ SVG equivalent  of linear gradients */
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.16) 100%); /* fade from white (0.82 opacty) to 0.16 opacity */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.82)), color-stop(100%,rgba(255,255,255,0.16)));
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -o-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+background: linear-gradient(top,  rgba(255,255,255,0.82) 0%,rgba(255,255,255,0.16) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1ffffff', endColorstr='#29ffffff',GradientType=0 );
+-moz-box-shadow: 0 0 5px #595959; /* CSS3 box shadows */
+-webkit-box-shadow: 0 0 5px #595959;
+box-shadow: 0 0 5px #595959;
+padding-top: 12px; /* large padding to get menu item to protrude upwards */
+padding-bottom: 20px; /* large padding to get menu item to protrude downwards */
+}
+
+

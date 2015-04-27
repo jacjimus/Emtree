@@ -1,0 +1,34 @@
+    @font-face
+{
+    font-family: Oswald-Bold;
+    src: url("fonts/Oswald-Regurlar.ttf");
+}
+
+.collapsibleContainer
+{
+    border: solid 1px #9BB5C1;
+
+}
+
+.collapsibleContainerTitle
+{
+    cursor:pointer;
+}
+
+.collapsibleContainerTitle div
+{
+    text-align: left;
+    padding-top:5px;
+    padding-left:10px;
+    background-color: #aeeeea;
+    color: #0d0d0e;
+    font-size: 14px;
+    font-family: Oswald-Regurlar;
+    
+    
+}
+
+.collapsibleContainerContent
+{
+    padding: 10px;
+}

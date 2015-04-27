@@ -1,0 +1,96 @@
+
+#Main_wrapper{
+    width:100%; height:auto;
+    background: #eaeaea !important;
+
+}
+#head{
+    width:100%; margin:0; height:200px; float:left;
+}
+
+#menu_container{
+    width:80%; height:150px; margin:0 auto;
+}
+#menu_items{
+    height:180px; width:10%; float:right; margin:-20px 10px 0 0;cursor:pointer;  
+}
+
+.logo{
+    background:url(../images/logo.png) no-repeat; background-size:100% 100%; float:left; width:240px; height:316px; cursor:pointer;
+    margin-top:5% !important;}
+.home{
+    background:url(../images/home_menu.png) no-repeat; background-size:80% inherit; }
+.home:hover{
+    background-size:100% 100%; overflow:hidden !important; }
+.about-us{
+    background:url(../images/about_menu.png) no-repeat;}
+.about-us:hover{
+    background-size:100% 100%; overflow:hidden !important;}
+.ask{
+    background:url(../images/ask.png) no-repeat;}
+.ask:hover{
+    background-size:100% 100%; overflow:hidden !important;}
+.contact-us{
+    background:url(../images/contact_menu.png) no-repeat;}
+.contact-us:hover{
+    background-size:100% 100%; overflow:hidden !important;}
+#wrap_content{
+    width:100%; height:auto; float:left; /*background:#063;*/
+}
+#login_wrap{width:70%; margin:0 auto; height:450px;}
+#wrap_footer{
+    width:100%; height:50px; float:left; background:#093;
+}
+p.change{
+    color: rgb(256, 256, 256);
+    left: 0px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px	;
+
+}
+#footer{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+
+}
+
+
+/**********************MAIN DASHBOARD************************************/
+
+#main_Dash{
+    width:100%;height:100%; background:#f3f3f3; margin:0 auto;
+}
+#dash_wrap{
+    width:80%; overflow:hidden !important; margin:0 auto !important; height:100%; background:#f3f3f3;
+}
+.col1{
+    float:left;width:200px; height:100%; background:url(../images/dash_bg.png) repeat-y;
+    margin-left:13%;
+}
+.menu_dashboard{
+    width:100%; height:60px; margin:0; z-index:200;  margin-top:40px;
+}
+.wrap_dash_menu_center{
+    margin-top:250px !important; z-index:400;
+}
+.wrap_dash_menu_right{
+    margin-top:150px !important; z-index:400;
+}
+.menu_dashboard_top{
+    width:50px; height:150px; margin-left:20px; float:left; z-index:1000 !important; cursor:pointer; 
+}
+.col2{
+    float:left;width:200px; height:100%;background:url(../images/dash_bg.png) repeat-y;
+    margin-left:5%;
+}
+.menu_dashboard_logo{
+    width:88px !important; z-index:1000;height:156px !important; margin-top:50px;background-size:100% 100%;
+    padding-left:5%;
+}
+.col3{
+    float:left;width:150px; height:100%;background:url(../images/dash_bg.png) repeat-y;
+    margin-left:5%;
+}
+
+
